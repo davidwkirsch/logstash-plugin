@@ -1,36 +1,28 @@
 package jenkins.plugins.logstash;
 
-import java.lang.Object;
+import com.cloudbees.syslog.MessageFormat;
+import edu.umd.cs.findbugs.annotations.CheckForNull;
+import hudson.Extension;
+import hudson.ExtensionList;
+import hudson.init.InitMilestone;
+import hudson.init.Initializer;
+import hudson.util.Secret;
+import jenkins.model.GlobalConfiguration;
+import jenkins.plugins.logstash.LogstashInstallation.Descriptor;
+import jenkins.plugins.logstash.configuration.*;
+import jenkins.plugins.logstash.persistence.LogstashIndexerDao;
+import jenkins.plugins.logstash.persistence.LogstashIndexerDao.IndexerType;
+import net.sf.json.JSONObject;
+import org.apache.commons.lang.time.FastDateFormat;
+import org.apache.http.client.utils.URIBuilder;
+import org.kohsuke.stapler.StaplerRequest;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import edu.umd.cs.findbugs.annotations.CheckForNull;
-
-import hudson.util.Secret;
-import org.kohsuke.stapler.StaplerRequest;
-
-import com.cloudbees.syslog.MessageFormat;
-
-import org.apache.commons.lang.time.FastDateFormat;
-import org.apache.http.client.utils.URIBuilder;
-import hudson.Extension;
-import hudson.init.InitMilestone;
-import hudson.init.Initializer;
-import jenkins.model.GlobalConfiguration;
-import jenkins.plugins.logstash.LogstashInstallation.Descriptor;
-import jenkins.plugins.logstash.configuration.ElasticSearch;
-import jenkins.plugins.logstash.configuration.LogstashIndexer;
-import jenkins.plugins.logstash.configuration.RabbitMq;
-import jenkins.plugins.logstash.configuration.Redis;
-import jenkins.plugins.logstash.configuration.Syslog;
-import jenkins.plugins.logstash.persistence.LogstashIndexerDao;
-import jenkins.plugins.logstash.persistence.LogstashIndexerDao.IndexerType;
-import jenkins.util.JenkinsJVM;
-import net.sf.json.JSONObject;
 
 @Extension
 public class LogstashConfiguration extends GlobalConfiguration
@@ -288,7 +280,7 @@ public class LogstashConfiguration extends GlobalConfiguration
 
   public static LogstashConfiguration getInstance()
   {
-    return GlobalConfiguration.all().get(LogstashConfiguration.class);
+    return ExtensionList.lookupSingleton(LogstashConfiguration.class);
   }
 
 }

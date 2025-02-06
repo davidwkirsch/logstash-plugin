@@ -1,47 +1,39 @@
 package jenkins.plugins.logstash.configuration;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-
-import javax.activation.MimeType;
-import javax.activation.MimeTypeParseException;
-import edu.umd.cs.findbugs.annotations.NonNull;
-
-import java.security.cert.CertificateException;
-
-import org.apache.commons.lang.StringUtils;
-import org.jenkinsci.Symbol;
-
 import com.cloudbees.plugins.credentials.CredentialsMatchers;
 import com.cloudbees.plugins.credentials.CredentialsProvider;
 import com.cloudbees.plugins.credentials.common.StandardCertificateCredentials;
 import com.cloudbees.plugins.credentials.common.StandardCredentials;
 import com.cloudbees.plugins.credentials.common.StandardListBoxModel;
+import hudson.Extension;
+import hudson.model.Item;
+import hudson.security.ACL;
+import hudson.util.FormValidation;
+import hudson.util.ListBoxModel;
+import hudson.util.Secret;
+import jenkins.model.Jenkins;
+import jenkins.plugins.logstash.Messages;
+import jenkins.plugins.logstash.persistence.ElasticSearchDao;
+import org.apache.commons.lang.StringUtils;
+import org.jenkinsci.Symbol;
 import org.kohsuke.stapler.AncestorInPath;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.DataBoundSetter;
 import org.kohsuke.stapler.QueryParameter;
 
-import java.security.KeyManagementException;
-import java.security.KeyStore;
+import javax.activation.MimeType;
+import javax.activation.MimeTypeParseException;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
 import java.util.Collections;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import hudson.Extension;
-import hudson.util.FormValidation;
-import hudson.util.Secret;
-import hudson.model.Item;
-import hudson.security.ACL;
-import hudson.util.ListBoxModel;
-import jenkins.model.Jenkins;
-import jenkins.plugins.logstash.Messages;
-import jenkins.plugins.logstash.persistence.ElasticSearchDao;
 
 public class ElasticSearch extends LogstashIndexer<ElasticSearchDao>
 {

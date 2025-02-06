@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="jenkins.plugins.logstash.PipelineTest" time="17.43" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="jenkins.plugins.logstash.PipelineTest" time="16.543" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\david\AppData\Local\Temp\surefire8864842614533228975\surefirebooter-20250206180327047_109.jar C:\Users\david\AppData\Local\Temp\surefire8864842614533228975 2025-02-06T18-03-25_373-jvmRun1 surefire-20250206180327047_107tmp surefire_10-20250206180327047_108tmp"/>
+    <property name="sun.java.command" value="C:\Users\david\AppData\Local\Temp\surefire301666249535741396\surefirebooter-20250206183246393_109.jar C:\Users\david\AppData\Local\Temp\surefire301666249535741396 2025-02-06T18-32-44_997-jvmRun1 surefire-20250206183246393_107tmp surefire_10-20250206183246393_108tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\david\Desktop\david\logstash-plugin\target\test-classes;C:\Users\david\Desktop\david\logstash-plugin\target\classes;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\apache-httpcomponents-client-4-api\4.5.14-150.v7a_b_9d17134a_5\apache-httpcomponents-client-4-api-4.5.14-150.v7a_b_9d17134a_5.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.4.16\httpcore-nio-4.4.16.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\fluent-hc\4.5.14\fluent-hc-4.5.14.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpclient-cache\4.5.14\httpclient-cache-4.5.14.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.1.5\httpasyncclient-4.1.5.jar;C:\Users\david\.m2\repository\org\apache\httpcomponents\httpasyncclient-cache\4.1.5\httpasyncclient-cache-4.1.5.jar;C:\Users\david\.m2\repository\redis\clients\jedis\2.6.0\jedis-2.6.0.jar;C:\Users\david\.m2\repository\org\apache\commons\commons-pool2\2.0\commons-pool2-2.0.jar;C:\Users\david\.m2\repository\com\rabbitmq\amqp-client\3.3.5\amqp-client-3.3.5.jar;C:\Users\david\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\david\.m2\repository\com\cloudbees\syslog-java-client\1.0.6\syslog-java-client-1.0.6.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\junit\1217.v4297208a_a_b_ce\junit-1217.v4297208a_a_b_ce.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\echarts-api\5.4.0-5\echarts-api-5.4.0-5.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\font-awesome-api\6.4.0-2\font-awesome-api-6.4.0-2.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\jquery3-api\3.7.0-1\jquery3-api-3.7.0-1.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\ionicons-api\56.v1b_1c8c49374e\ionicons-api-56.v1b_1c8c49374e.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\checks-api\2.0.0\checks-api-2.0.0.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\commons-lang3-api\3.13.0-62.v7d18e55f51e2\commons-lang3-api-3.13.0-62.v7d18e55f51e2.jar;C:\Users\david\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\plugin-util-api\3.3.0\plugin-util-api-3.3.0.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\display-url-api\2.3.9\display-url-api-2.3.9.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\bootstrap5-api\5.3.0-1\bootstrap5-api-5.3.0-1.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-api\1259.vb_47f14fffc8a_\workflow-api-1259.vb_47f14fffc8a_.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\jackson2-api\2.15.2-350.v0c2f3f8fc595\jackson2-api-2.15.2-350.v0c2f3f8fc595.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-json-org\2.15.2\jackson-datatype-json-org-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.2\jackson-module-parameter-names-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.15.2\jackson-module-jaxb-annotations-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.15.2\jackson-dataformat-cbor-2.15.2.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.15.2\jackson-dataformat-xml-2.15.2.jar;C:\Users\david\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar;C:\Users\david\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.1\woodstox-core-6.5.1.jar;C:\Users\david\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.2\jackson-dataformat-yaml-2.15.2.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\javax-activation-api\1.2.0-6\javax-activation-api-1.2.0-6.jar;C:\Users\david\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\jaxb\2.3.8-1\jaxb-2.3.8-1.jar;C:\Users\david\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.8\jaxb-impl-2.3.8.jar;C:\Users\david\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\credentials\1271.v54b_1c2c6388a_\credentials-1271.v54b_1c2c6388a_.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\structs\325.vcb_307d2a_2782\structs-325.vcb_307d2a_2782.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-step-api\639.v6eca_cd8c04a_a_\workflow-step-api-639.v6eca_cd8c04a_a_.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\pipeline-stage-step\305.ve96d0205c1c6\pipeline-stage-step-305.ve96d0205c1c6.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-durable-task-step\1284.v4fcd365b_75b_e\workflow-durable-task-step-1284.v4fcd365b_75b_e.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\durable-task\523.va_a_22cf15d5e0\durable-task-523.va_a_22cf15d5e0.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\lib-durable-task\40.vc66cf8fb_4613\lib-durable-task-40.vc66cf8fb_4613.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-support\848.v5a_383b_d14921\workflow-support-848.v5a_383b_d14921.jar;C:\Users\david\.m2\repository\org\jboss\marshalling\jboss-marshalling-river\2.1.0.Final\jboss-marshalling-river-2.1.0.Final.jar;C:\Users\david\.m2\repository\org\jboss\marshalling\jboss-marshalling\2.1.0.Final\jboss-marshalling-2.1.0.Final.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\scm-api\676.v886669a_199a_a_\scm-api-676.v886669a_199a_a_.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-job\1326.ve643e00e9220\workflow-job-1326.ve643e00e9220.jar;C:\Users\david\.m2\repository\io\jenkins\configuration-as-code\1670.v564dc8b_982d0\configuration-as-code-1670.v564dc8b_982d0.jar;C:\Users\david\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\caffeine-api\3.1.8-133.v17b_1ff2e0599\caffeine-api-3.1.8-133.v17b_1ff2e0599.jar;C:\Users\david\.m2\repository\com\github\ben-manes\caffeine\caffeine\3.1.8\caffeine-3.1.8.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\commons-text-api\1.10.0-68.v0d0b_c439292b_\commons-text-api-1.10.0-68.v0d0b_c439292b_.jar;C:\Users\david\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\snakeyaml-api\1.33-95.va_b_a_e3e47b_fa_4\snakeyaml-api-1.33-95.va_b_a_e3e47b_fa_4.jar;C:\Users\david\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\david\.m2\repository\io\vavr\vavr\0.10.4\vavr-0.10.4.jar;C:\Users\david\.m2\repository\io\vavr\vavr-match\0.10.4\vavr-match-0.10.4.jar;C:\Users\david\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\david\.m2\repository\org\mockito\mockito-core\5.4.0\mockito-core-5.4.0.jar;C:\Users\david\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\david\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.5\byte-buddy-agent-1.14.5.jar;C:\Users\david\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\david\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\script-security\1269.v639888f5e366\script-security-1269.v639888f5e366.jar;C:\Users\david\.m2\repository\org\kohsuke\groovy-sandbox\1.33\groovy-sandbox-1.33.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\mask-passwords\2.13\mask-passwords-2.13.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\envinject\2.1.5\envinject-2.1.5.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\envinject-api\1.3\envinject-api-1.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\lib\envinject-lib\1.27\envinject-lib-1.27.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\matrix-project\808.v5a_b_5f56d6966\matrix-project-808.v5a_b_5f56d6966.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\ansicolor\1.0.3\ansicolor-1.0.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-cps\3769.v8b_e595e4d40d\workflow-cps-3769.v8b_e595e4d40d.jar;C:\Users\david\.m2\repository\com\cloudbees\groovy-cps\3769.v8b_e595e4d40d\groovy-cps-3769.v8b_e595e4d40d.jar;C:\Users\david\.m2\repository\com\cloudbees\diff4j\1.3\diff4j-1.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-basic-steps\1042.ve7b_140c4a_e0c\workflow-basic-steps-1042.ve7b_140c4a_e0c.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\mailer\463.vedf8358e006b_\mailer-463.vedf8358e006b_.jar;C:\Users\david\.m2\repository\org\jenkins-ci\modules\instance-identity\173.va_37c494ec4e5\instance-identity-173.va_37c494ec4e5.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\bouncycastle-api\2.29\bouncycastle-api-2.29.jar;C:\Users\david\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\david\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\david\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\jakarta-mail-api\2.0.1-3\jakarta-mail-api-2.0.1-3.jar;C:\Users\david\.m2\repository\com\sun\mail\jakarta.mail\2.0.1\jakarta.mail-2.0.1.jar;C:\Users\david\.m2\repository\io\jenkins\plugins\jakarta-activation-api\2.0.1-3\jakarta-activation-api-2.0.1-3.jar;C:\Users\david\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\david\.m2\repository\org\jenkins-ci\plugins\workflow\workflow-scm-step\415.v434365564324\workflow-scm-step-415.v434365564324.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\jenkins-core\2.387.3\jenkins-core-2.387.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\cli\2.387.3\cli-2.387.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\remoting\3107.v665000b_51092\remoting-3107.v665000b_51092.jar;C:\Users\david\.m2\repository\args4j\args4j\2.33\args4j-2.33.jar;C:\Users\david\.m2\repository\com\github\spotbugs\spotbugs-annotations\4.7.3\spotbugs-annotations-4.7.3.jar;C:\Users\david\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\david\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\david\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\david\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\david\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\david\.m2\repository\com\infradna\tool\bridge-method-annotation\1.25\bridge-method-annotation-1.25.jar;C:\Users\david\.m2\repository\com\jcraft\jzlib\1.1.3-kohsuke-1\jzlib-1.1.3-kohsuke-1.jar;C:\Users\david\.m2\repository\com\sun\solaris\embedded_su4j\1.1\embedded_su4j-1.1.jar;C:\Users\david\.m2\repository\com\sun\xml\txw2\txw2\20110809\txw2-20110809.jar;C:\Users\david\.m2\repository\relaxngDatatype\relaxngDatatype\20020414\relaxngDatatype-20020414.jar;C:\Users\david\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\david\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\david\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\david\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\david\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\david\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\david\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\david\.m2\repository\commons-jelly\commons-jelly-tags-fmt\1.0\commons-jelly-tags-fmt-1.0.jar;C:\Users\david\.m2\repository\commons-jelly\commons-jelly-tags-xml\1.1\commons-jelly-tags-xml-1.1.jar;C:\Users\david\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\david\.m2\repository\io\jenkins\stapler\jenkins-stapler-support\1.1\jenkins-stapler-support-1.1.jar;C:\Users\david\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\1.2.7\jakarta.servlet.jsp.jstl-api-1.2.7.jar;C:\Users\david\.m2\repository\jaxen\jaxen\2.0.0\jaxen-2.0.0.jar;C:\Users\david\.m2\repository\jline\jline\2.14.6\jline-2.14.6.jar;C:\Users\david\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\david\.m2\repository\net\java\sezpoz\sezpoz\1.13\sezpoz-1.13.jar;C:\Users\david\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\david\.m2\repository\net\sf\kxml\kxml2\2.3.0\kxml2-2.3.0.jar;C:\Users\david\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\david\.m2\repository\org\apache\ant\ant\1.10.12\ant-1.10.12.jar;C:\Users\david\.m2\repository\org\apache\ant\ant-launcher\1.10.12\ant-launcher-1.10.12.jar;C:\Users\david\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\david\.m2\repository\org\codehaus\groovy\groovy-all\2.4.21\groovy-all-2.4.21.jar;C:\Users\david\.m2\repository\org\connectbot\jbcrypt\jbcrypt\1.0.0\jbcrypt-1.0.0.jar;C:\Users\david\.m2\repository\org\fusesource\jansi\jansi\1.11\jansi-1.11.jar;C:\Users\david\.m2\repository\org\jenkins-ci\annotation-indexer\1.17\annotation-indexer-1.17.jar;C:\Users\david\.m2\repository\org\jenkins-ci\commons-jexl\1.1-jenkins-20111212\commons-jexl-1.1-jenkins-20111212.jar;C:\Users\david\.m2\repository\org\jenkins-ci\crypto-util\1.8\crypto-util-1.8.jar;C:\Users\david\.m2\repository\org\jenkins-ci\memory-monitor\1.12\memory-monitor-1.12.jar;C:\Users\david\.m2\repository\org\jenkins-ci\symbol-annotation\1.24\symbol-annotation-1.24.jar;C:\Users\david\.m2\repository\org\jenkins-ci\task-reactor\1.8\task-reactor-1.8.jar;C:\Users\david\.m2\repository\org\jenkins-ci\version-number\1.11\version-number-1.11.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\websocket-spi\2.387.3\websocket-spi-2.387.3.jar;C:\Users\david\.m2\repository\org\jfree\jfreechart\1.0.19\jfreechart-1.0.19.jar;C:\Users\david\.m2\repository\org\jfree\jcommon\1.0.23\jcommon-1.0.23.jar;C:\Users\david\.m2\repository\org\jvnet\hudson\commons-jelly-tags-define\1.0.1-hudson-20071021\commons-jelly-tags-define-1.0.1-hudson-20071021.jar;C:\Users\david\.m2\repository\org\jvnet\localizer\localizer\1.31\localizer-1.31.jar;C:\Users\david\.m2\repository\org\jvnet\robust-http-client\robust-http-client\1.2\robust-http-client-1.2.jar;C:\Users\david\.m2\repository\org\jvnet\winp\winp\1.30\winp-1.30.jar;C:\Users\david\.m2\repository\org\kohsuke\access-modifier-annotation\1.30\access-modifier-annotation-1.30.jar;C:\Users\david\.m2\repository\org\kohsuke\windows-package-checker\1.2\windows-package-checker-1.2.jar;C:\Users\david\.m2\repository\org\kohsuke\jinterop\j-interop\2.0.8-kohsuke-1\j-interop-2.0.8-kohsuke-1.jar;C:\Users\david\.m2\repository\org\kohsuke\jinterop\j-interopdeps\2.0.8-kohsuke-1\j-interopdeps-2.0.8-kohsuke-1.jar;C:\Users\david\.m2\repository\org\samba\jcifs\jcifs\1.3.18-kohsuke-1\jcifs-1.3.18-kohsuke-1.jar;C:\Users\david\.m2\repository\org\kohsuke\stapler\json-lib\2.4-jenkins-3\json-lib-2.4-jenkins-3.jar;C:\Users\david\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;C:\Users\david\.m2\repository\org\kohsuke\stapler\stapler\1756.1758.v13fcdc2c8c34\stapler-1756.1758.v13fcdc2c8c34.jar;C:\Users\david\.m2\repository\commons-discovery\commons-discovery\0.5\commons-discovery-0.5.jar;C:\Users\david\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\david\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\david\.m2\repository\org\jvnet\tiger-types\2.2\tiger-types-2.2.jar;C:\Users\david\.m2\repository\org\kohsuke\stapler\stapler-adjunct-codemirror\1.3\stapler-adjunct-codemirror-1.3.jar;C:\Users\david\.m2\repository\org\kohsuke\stapler\stapler-adjunct-timeline\1.5\stapler-adjunct-timeline-1.5.jar;C:\Users\david\.m2\repository\org\kohsuke\stapler\stapler-groovy\1756.1758.v13fcdc2c8c34\stapler-groovy-1756.1758.v13fcdc2c8c34.jar;C:\Users\david\.m2\repository\org\kohsuke\stapler\stapler-jelly\1756.1758.v13fcdc2c8c34\stapler-jelly-1756.1758.v13fcdc2c8c34.jar;C:\Users\david\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\david\.m2\repository\org\jenkins-ci\commons-jelly\1.1-jenkins-20220630\commons-jelly-1.1-jenkins-20220630.jar;C:\Users\david\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\david\.m2\repository\org\ow2\asm\asm-analysis\9.4\asm-analysis-9.4.jar;C:\Users\david\.m2\repository\org\ow2\asm\asm-commons\9.4\asm-commons-9.4.jar;C:\Users\david\.m2\repository\org\ow2\asm\asm-tree\9.4\asm-tree-9.4.jar;C:\Users\david\.m2\repository\org\ow2\asm\asm-util\9.4\asm-util-9.4.jar;C:\Users\david\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.6\jcl-over-slf4j-2.0.6.jar;C:\Users\david\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\david\.m2\repository\org\slf4j\log4j-over-slf4j\2.0.6\log4j-over-slf4j-2.0.6.jar;C:\Users\david\.m2\repository\org\springframework\security\spring-security-web\5.8.1\spring-security-web-5.8.1.jar;C:\Users\david\.m2\repository\org\springframework\security\spring-security-core\5.8.1\spring-security-core-5.8.1.jar;C:\Users\david\.m2\repository\org\springframework\security\spring-security-crypto\5.8.1\spring-security-crypto-5.8.1.jar;C:\Users\david\.m2\repository\org\springframework\spring-core\5.3.24\spring-core-5.3.24.jar;C:\Users\david\.m2\repository\org\springframework\spring-aop\5.3.24\spring-aop-5.3.24.jar;C:\Users\david\.m2\repository\org\springframework\spring-beans\5.3.24\spring-beans-5.3.24.jar;C:\Users\david\.m2\repository\org\springframework\spring-context\5.3.24\spring-context-5.3.24.jar;C:\Users\david\.m2\repository\org\springframework\spring-expression\5.3.24\spring-expression-5.3.24.jar;C:\Users\david\.m2\repository\org\springframework\spring-web\5.3.24\spring-web-5.3.24.jar;C:\Users\david\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\jenkins-war\2.387.3\jenkins-war-2.387.3.war;C:\Users\david\.m2\repository\org\jenkins-ci\main\websocket-jetty10\2.387.3\websocket-jetty10-2.387.3.jar;C:\Users\david\.m2\repository\org\kohsuke\metainf-services\metainf-services\1.9\metainf-services-1.9.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\websocket-jetty9\2.387.3\websocket-jetty9-2.387.3.jar;C:\Users\david\.m2\repository\org\slf4j\slf4j-jdk14\2.0.6\slf4j-jdk14-2.0.6.jar;C:\Users\david\.m2\repository\jakarta\servlet\jakarta.servlet-api\4.0.4\jakarta.servlet-api-4.0.4.jar;C:\Users\david\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\jenkins-test-harness\2044.v03c87927ff5c\jenkins-test-harness-2044.v03c87927ff5c.jar;C:\Users\david\.m2\repository\io\jenkins\lib\support-log-formatter\1.2\support-log-formatter-1.2.jar;C:\Users\david\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-security\10.0.15\jetty-security-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-server\10.0.15\jetty-server-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-http\10.0.15\jetty-http-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-io\10.0.15\jetty-io-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-webapp\10.0.15\jetty-webapp-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-servlet\10.0.15\jetty-servlet-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-xml\10.0.15\jetty-xml-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\jetty-util\10.0.15\jetty-util-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\websocket\websocket-jetty-server\10.0.15\websocket-jetty-server-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\websocket\websocket-jetty-api\10.0.15\websocket-jetty-api-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\websocket\websocket-jetty-common\10.0.15\websocket-jetty-common-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\websocket\websocket-core-common\10.0.15\websocket-core-common-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\10.0.15\websocket-servlet-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\websocket\websocket-core-server\10.0.15\websocket-core-server-10.0.15.jar;C:\Users\david\.m2\repository\org\eclipse\jetty\toolchain\jetty-servlet-api\4.0.6\jetty-servlet-api-4.0.6.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\david\.m2\repository\org\jenkins-ci\main\jenkins-test-harness-htmlunit\152.vb_7b_348664557\jenkins-test-harness-htmlunit-152.vb_7b_348664557.jar;C:\Users\david\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\david\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\david\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\david\.m2\repository\org\netbeans\modules\org-netbeans-insane\RELEASE180\org-netbeans-insane-RELEASE180.jar;C:\Users\david\.m2\repository\org\openjdk\jmh\jmh-core\1.36\jmh-core-1.36.jar;C:\Users\david\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\david\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\david\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.36\jmh-generator-annprocess-1.36.jar;C:\Users\david\.m2\repository\org\jenkins-ci\test-annotations\1.4\test-annotations-1.4.jar;C:\Users\david\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\david\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\david\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\david\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0\junit-vintage-engine-5.10.0.jar;C:\Users\david\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\david\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.headless" value="true"/>
     <property name="org.eclipse.jetty.server.Request.maxFormContentSize" value="-1"/>
-    <property name="surefire.real.class.path" value="C:\Users\david\AppData\Local\Temp\surefire8864842614533228975\surefirebooter-20250206180327047_109.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\david\AppData\Local\Temp\surefire301666249535741396\surefirebooter-20250206183246393_109.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="changelist.format" value="%d.v%s"/>
@@ -45,7 +45,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="jnidispatch.path" value="C:\Users\david\Desktop\david\logstash-plugin\target\tmp\jna-95358580\jna16171608359215148727.dll"/>
+    <property name="jnidispatch.path" value="C:\Users\david\Desktop\david\logstash-plugin\target\tmp\jna-95358580\jna7428454973024476066.dll"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="mail.smtp.sendpartial" value="true"/>
     <property name="localRepository" value="C:\Users\david\.m2\repository"/>
@@ -69,43 +69,43 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="logstashSend" classname="jenkins.plugins.logstash.PipelineTest" time="11.169">
+  <testcase name="logstashSend" classname="jenkins.plugins.logstash.PipelineTest" time="9.066">
     <system-out><![CDATA[=== Starting logstashSend(jenkins.plugins.logstash.PipelineTest)
 ]]></system-out>
-    <system-err><![CDATA[   0.099 [id=29]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test
-   0.426 [id=29]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30183/jenkins/
-   0.754 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   3.107 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\command-launcher.jpi
-   3.192 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\jdk-tool.jpi
-   3.275 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\trilead-api.jpi
-   3.434 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\mina-sshd-api-common.jpi
-   3.537 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\javax-mail-api.jpi
-   3.583 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\mina-sshd-api-core.jpi
-   3.633 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins2715750572050281330\plugins\sshd.jpi
-   5.181 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   5.188 [id=44]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h11114869065311837971\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   5.416 [id=47]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   6.574 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   6.587 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   6.590 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   9.199 [id=46]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   9.279 [id=48]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   9.279 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   9.281 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   9.453 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   9.625 [p #1] Started
-  10.132 [p #1] [Pipeline] Start of Pipeline
-  10.318 [p #1] [Pipeline] echo
-  10.319 [p #1] Message
-  10.381 [p #1] [Pipeline] logstashSend
-  10.504 [p #1] [Pipeline] End of Pipeline
-  10.532 [p #1] Finished: SUCCESS
-  10.542 [id=29]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-  10.581 [id=29]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-  10.626 [id=29]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h11114869065311837971
+    <system-err><![CDATA[   0.113 [id=29]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test
+   0.377 [id=29]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2784/jenkins/
+   0.699 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   3.177 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\command-launcher.jpi
+   3.250 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\jdk-tool.jpi
+   3.325 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\trilead-api.jpi
+   3.470 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\mina-sshd-api-common.jpi
+   3.567 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\javax-mail-api.jpi
+   3.610 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\mina-sshd-api-core.jpi
+   3.663 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins11099335417640795943\plugins\sshd.jpi
+   4.877 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   4.883 [id=41]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h3227862689057414142\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   5.097 [id=44]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   6.172 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   6.185 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   6.187 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   7.229 [id=48]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   7.299 [id=46]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   7.299 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   7.307 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   7.469 [id=41]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   7.616 [p #1] Started
+   8.169 [p #1] [Pipeline] Start of Pipeline
+   8.293 [p #1] [Pipeline] echo
+   8.293 [p #1] Message
+   8.355 [p #1] [Pipeline] logstashSend
+   8.416 [p #1] [Pipeline] End of Pipeline
+   8.438 [p #1] Finished: SUCCESS
+   8.447 [id=29]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   8.483 [id=29]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   8.530 [id=29]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h3227862689057414142
 ]]></system-err>
   </testcase>
-  <testcase name="logstashStageAndAgent" classname="jenkins.plugins.logstash.PipelineTest" time="2.375">
+  <testcase name="logstashStageAndAgent" classname="jenkins.plugins.logstash.PipelineTest" time="2.779">
     <system-out><![CDATA[=== Starting logstashStageAndAgent(jenkins.plugins.logstash.PipelineTest)
 $ "C:\Program Files\Java\jdk-21/bin/java"  -Djava.awt.headless=true -Xmx512m -XX:+PrintCommandLineFlags -jar "C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test\WEB-INF\lib\remoting-3107.v665000b_51092.jar"
 -XX:ConcGCThreads=1 -XX:G1ConcRefinementThreads=4 -XX:GCDrainStackTargetSize=64 -XX:InitialHeapSize=535830720 -XX:MarkStackSize=4194304 -XX:MaxHeapSize=536870912 -XX:MinHeapSize=6815736 -XX:+PrintCommandLineFlags -XX:ReservedCodeCacheSize=251658240 -XX:+SegmentedCodeCache -XX:+UseCompressedOops -XX:+UseG1GC -XX:-UseLargePagesIndividualAllocation 
@@ -114,144 +114,143 @@ Remoting version: 3107.v665000b_51092
 Launcher: SimpleCommandLauncher
 Communication Protocol: Standard in/out
 This is a Windows agent
-feb 06, 2025 6:06:30 P.�M. org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+feb 06, 2025 6:35:32 P.�M. org.jenkinsci.remoting.util.AnonymousClassWarnings warn
 WARNING: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.EnvInjectComputerListener$2; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
 ]]></system-out>
-    <system-err><![CDATA[   0.019 [id=85]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30187/jenkins/
-   0.115 [id=98]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.116 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.118 [id=104]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9579668740319591103\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.132 [id=98]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.267 [id=99]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.271 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.272 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.769 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.781 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.782 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.784 [id=102]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.814 [id=98]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   0.859 [id=85]	INFO	o.jvnet.hudson.test.JenkinsRule#waitOnline: Launching slave0…
-   1.527 [id=126]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.EnvInjectComputerListener$2 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
-   1.712 [id=78]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
-   1.713 [id=85]	INFO	o.jvnet.hudson.test.JenkinsRule#waitOnline: …finished launching slave0.
-   1.772 [p #1] Started
-   1.834 [p #1] [Pipeline] Start of Pipeline
-   1.896 [p #1] [Pipeline] stage
-   1.896 [p #1] [Pipeline] { (stage1)
-   1.959 [p #1] [Pipeline] node
-   2.002 [id=78]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
-   2.021 [p #1] Running on slave0 in C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9579668740319591103\agent-work-dirs\slave0\workspace\p
-   2.021 [p #1] [Pipeline] {
-   2.021 [p #1] [Pipeline] logstash
-   2.022 [p #1] [Pipeline] {
-   2.083 [p #1] [Pipeline] echo
-   2.083 [p #1] Message
-   2.083 [p #1] [Pipeline] }
-   2.147 [p #1] [Pipeline] // logstash
-   2.147 [p #1] [Pipeline] }
-   2.207 [p #1] [Pipeline] // node
-   2.207 [p #1] [Pipeline] }
-   2.207 [p #1] [Pipeline] // stage
-   2.246 [p #1] [Pipeline] End of Pipeline
-   2.246 [p #1] Finished: SUCCESS
-   2.255 [id=78]	INFO	hudson.remoting.Request$2#run: Failed to send back a reply to the request UserRequest:UserRPCRequest:hudson.remoting.JarLoader.notifyJarPresence[long,long](3): hudson.remoting.ChannelClosedException: Channel "hudson.remoting.Channel@2b904779:slave0": channel is already closed
-   2.259 [id=85]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.280 [id=85]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.334 [id=85]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9579668740319591103
+    <system-err><![CDATA[   0.018 [id=84]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2788/jenkins/
+   0.098 [id=97]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.099 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.101 [id=103]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10587045983929421030\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.116 [id=98]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.245 [id=99]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.247 [id=102]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.248 [id=97]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.114 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.129 [id=100]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.129 [id=99]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.130 [id=99]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.160 [id=98]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.206 [id=84]	INFO	o.jvnet.hudson.test.JenkinsRule#waitOnline: Launching slave0…
+   1.900 [id=126]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.EnvInjectComputerListener$2 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+   2.098 [id=77]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
+   2.099 [id=84]	INFO	o.jvnet.hudson.test.JenkinsRule#waitOnline: …finished launching slave0.
+   2.155 [p #1] Started
+   2.216 [p #1] [Pipeline] Start of Pipeline
+   2.278 [p #1] [Pipeline] stage
+   2.278 [p #1] [Pipeline] { (stage1)
+   2.340 [p #1] [Pipeline] node
+   2.389 [id=63]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
+   2.402 [p #1] Running on slave0 in C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10587045983929421030\agent-work-dirs\slave0\workspace\p
+   2.402 [p #1] [Pipeline] {
+   2.402 [p #1] [Pipeline] logstash
+   2.402 [p #1] [Pipeline] {
+   2.464 [p #1] [Pipeline] echo
+   2.465 [p #1] Message
+   2.465 [p #1] [Pipeline] }
+   2.529 [p #1] [Pipeline] // logstash
+   2.529 [p #1] [Pipeline] }
+   2.590 [p #1] [Pipeline] // node
+   2.591 [p #1] [Pipeline] }
+   2.591 [p #1] [Pipeline] // stage
+   2.639 [p #1] [Pipeline] End of Pipeline
+   2.639 [p #1] Finished: SUCCESS
+   2.653 [id=84]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.671 [id=84]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.739 [id=84]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10587045983929421030
 ]]></system-err>
   </testcase>
-  <testcase name="logstashSendNotifier" classname="jenkins.plugins.logstash.PipelineTest" time="1.069">
+  <testcase name="logstashSendNotifier" classname="jenkins.plugins.logstash.PipelineTest" time="1.813">
     <system-out><![CDATA[=== Starting logstashSendNotifier(jenkins.plugins.logstash.PipelineTest)
 ]]></system-out>
-    <system-err><![CDATA[   0.030 [id=141]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30190/jenkins/
-   0.138 [id=154]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.139 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.142 [id=156]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h4352639828168048590\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.164 [id=155]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.306 [id=158]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.309 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.310 [id=157]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.581 [id=159]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.593 [id=154]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.593 [id=157]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.594 [id=159]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.625 [id=156]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   0.701 [p #1] Started
-   0.763 [p #1] [Pipeline] Start of Pipeline
-   0.763 [p #1] [Pipeline] node
-   0.825 [p #1] Running on Jenkins in C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h4352639828168048590\workspace\p
-   0.825 [p #1] [Pipeline] {
-   0.886 [p #1] [Pipeline] echo
-   0.887 [p #1] Message
-   0.887 [p #1] [Pipeline] step
-   0.948 [p #1] [Pipeline] }
-   0.948 [p #1] [Pipeline] // node
-   0.949 [p #1] [Pipeline] End of Pipeline
-   0.972 [p #1] Finished: SUCCESS
-   0.975 [id=141]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   0.987 [id=141]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   1.036 [id=141]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h4352639828168048590
+    <system-err><![CDATA[   0.020 [id=140]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2791/jenkins/
+   0.102 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.104 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.105 [id=157]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15326750987950977537\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.117 [id=153]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.244 [id=159]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.247 [id=158]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.248 [id=154]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.356 [id=157]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.368 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.368 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.369 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.400 [id=154]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.452 [p #1] Started
+   1.514 [p #1] [Pipeline] Start of Pipeline
+   1.575 [p #1] [Pipeline] node
+   1.576 [p #1] Running on Jenkins in C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15326750987950977537\workspace\p
+   1.576 [p #1] [Pipeline] {
+   1.576 [p #1] [Pipeline] echo
+   1.637 [p #1] Message
+   1.637 [p #1] [Pipeline] step
+   1.638 [p #1] [Pipeline] }
+   1.699 [p #1] [Pipeline] // node
+   1.699 [p #1] [Pipeline] End of Pipeline
+   1.712 [p #1] Finished: SUCCESS
+   1.715 [id=140]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.728 [id=140]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.784 [id=140]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15326750987950977537
 ]]></system-err>
   </testcase>
-  <testcase name="globalLogstash" classname="jenkins.plugins.logstash.PipelineTest" time="1.399">
+  <testcase name="globalLogstash" classname="jenkins.plugins.logstash.PipelineTest" time="1.262">
     <system-out><![CDATA[=== Starting globalLogstash(jenkins.plugins.logstash.PipelineTest)
 ]]></system-out>
-    <system-err><![CDATA[   0.026 [id=184]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30193/jenkins/
-   0.126 [id=197]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.127 [id=197]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.128 [id=198]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2990289765931934447\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.139 [id=198]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.277 [id=197]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.279 [id=203]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.280 [id=203]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.945 [id=198]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.955 [id=203]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.955 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.956 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.989 [id=196]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   1.043 [id=219]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
-   1.071 [p #1] Started
-   1.136 [p #1] [Pipeline] Start of Pipeline
-   1.139 [p #1] [Pipeline] echo
-   1.161 [id=127]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
-   1.197 [p #1] Message
-   1.197 [p #1] [Pipeline] End of Pipeline
-   1.257 [p #1] Finished: SUCCESS
-   1.272 [id=184]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   1.293 [id=184]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   1.352 [id=184]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2990289765931934447
+    <system-err><![CDATA[   0.015 [id=183]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2794/jenkins/
+   0.094 [id=196]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.095 [id=196]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.096 [id=196]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10884083992167335637\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.108 [id=201]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.231 [id=198]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.234 [id=202]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.235 [id=196]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.936 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.957 [id=195]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.957 [id=200]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.958 [id=200]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.993 [id=199]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.044 [id=218]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
+   1.079 [p #1] Started
+   1.130 [id=124]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
+   1.141 [p #1] [Pipeline] Start of Pipeline
+   1.142 [p #1] [Pipeline] echo
+   1.142 [p #1] Message
+   1.142 [p #1] [Pipeline] End of Pipeline
+   1.173 [p #1] Finished: SUCCESS
+   1.178 [id=183]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.192 [id=183]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.240 [id=183]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10884083992167335637
 ]]></system-err>
   </testcase>
-  <testcase name="logstash" classname="jenkins.plugins.logstash.PipelineTest" time="1.401">
+  <testcase name="logstash" classname="jenkins.plugins.logstash.PipelineTest" time="1.605">
     <system-out><![CDATA[=== Starting logstash(jenkins.plugins.logstash.PipelineTest)
 ]]></system-out>
-    <system-err><![CDATA[   0.023 [id=224]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30197/jenkins/
-   0.143 [id=237]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.144 [id=236]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.145 [id=237]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5375178297177847222\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.161 [id=242]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.315 [id=236]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.317 [id=243]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.318 [id=241]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.925 [id=242]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.947 [id=242]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.947 [id=242]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.948 [id=236]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.980 [id=241]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   1.069 [p #1] Started
-   1.131 [p #1] [Pipeline] Start of Pipeline
-   1.153 [id=78]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
-   1.192 [p #1] [Pipeline] logstash
-   1.192 [p #1] [Pipeline] {
-   1.254 [p #1] [Pipeline] echo
-   1.254 [p #1] Message
-   1.254 [p #1] [Pipeline] }
-   1.301 [p #1] [Pipeline] // logstash
-   1.301 [p #1] [Pipeline] End of Pipeline
-   1.301 [p #1] Finished: SUCCESS
-   1.304 [id=224]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   1.318 [id=224]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   1.375 [id=224]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5375178297177847222
+    <system-err><![CDATA[   0.014 [id=223]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2797/jenkins/
+   0.095 [id=236]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.096 [id=236]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.097 [id=240]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12755464594753945469\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.107 [id=241]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.231 [id=241]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.233 [id=238]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.235 [id=240]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.246 [id=238]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.255 [id=240]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.255 [id=240]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.256 [id=242]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.289 [id=241]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.398 [p #1] Started
+   1.398 [p #1] [Pipeline] Start of Pipeline
+   1.404 [id=124]	INFO	j.p.l.pipeline.GlobalDecorator#<init>: Creating decorator for p #1
+   1.460 [p #1] [Pipeline] logstash
+   1.460 [p #1] [Pipeline] {
+   1.460 [p #1] [Pipeline] echo
+   1.461 [p #1] Message
+   1.461 [p #1] [Pipeline] }
+   1.511 [p #1] [Pipeline] // logstash
+   1.512 [p #1] [Pipeline] End of Pipeline
+   1.512 [p #1] Finished: SUCCESS
+   1.514 [id=223]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.527 [id=223]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.577 [id=223]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12755464594753945469
 ]]></system-err>
   </testcase>
 </testsuite>

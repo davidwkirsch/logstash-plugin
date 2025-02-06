@@ -12,7 +12,7 @@ Short-Name: logstash
 Long-Name: Logstash
 Url: https://github.com/jenkinsci/logstash-plugin
 Compatible-Since-Version: 2.0
-Plugin-Version: 2.5.0-SNAPSHOT (private-39a96a5f-david)
+Plugin-Version: 2.5.0-SNAPSHOT (private-8a05e589-david)
 Hudson-Version: 2.387.3
 Jenkins-Version: 2.387.3
 Plugin-Dependencies: workflow-durable-task-step:1284.v4fcd365b_75b_e,wor
@@ -29,6 +29,6 @@ Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/logstash-plug
  in.git
 Plugin-ScmTag: HEAD
 Plugin-ScmUrl: https://github.com/jenkinsci/logstash-plugin
-Plugin-GitHash: 39a96a5f519cc083fa3ff28a124b9e4b687d91f0
-Implementation-Build: 39a96a5f519cc083fa3ff28a124b9e4b687d91f0
+Plugin-GitHash: 8a05e589864a4e6a34794ff06c338d50f08d4b60
+Implementation-Build: 8a05e589864a4e6a34794ff06c338d50f08d4b60
 

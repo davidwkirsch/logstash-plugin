@@ -1,27 +1,27 @@
 === Starting dataIsSetForNotifierOnMaster(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.106 [id=28]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test
-   0.375 [id=28]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30127/jenkins/
-   0.701 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   3.204 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\command-launcher.jpi
-   3.309 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\jdk-tool.jpi
-   3.413 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\trilead-api.jpi
-   3.565 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\mina-sshd-api-common.jpi
-   3.664 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\javax-mail-api.jpi
-   3.715 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\mina-sshd-api-core.jpi
-   3.770 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins4011091865781867842\plugins\sshd.jpi
-   5.159 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   5.166 [id=43]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17832210753881053213\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   5.397 [id=40]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   6.525 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   6.537 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   6.539 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   9.161 [id=46]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   9.284 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   9.284 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   9.300 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   9.749 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   9.963 [id=51]	WARNING	c.m.c.h.p.m.MaskPasswordsConfig#load: Unable to load Mask Passwords plugin configuration from com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.xml
-java.nio.file.NoSuchFileException: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17832210753881053213\com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.xml
+   0.103 [id=28]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test
+   0.390 [id=28]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2743/jenkins/
+   0.794 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   3.219 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\command-launcher.jpi
+   3.301 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\jdk-tool.jpi
+   3.382 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\trilead-api.jpi
+   3.526 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\mina-sshd-api-common.jpi
+   3.625 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\javax-mail-api.jpi
+   3.671 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\mina-sshd-api-core.jpi
+   3.722 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins16677859840457846743\plugins\sshd.jpi
+   4.940 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   4.946 [id=42]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2959208678512787286\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   5.150 [id=44]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   6.233 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   6.248 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   6.249 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   7.857 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   7.929 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   7.930 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   7.938 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   8.122 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   8.304 [id=51]	WARNING	c.m.c.h.p.m.MaskPasswordsConfig#load: Unable to load Mask Passwords plugin configuration from com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.xml
+java.nio.file.NoSuchFileException: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2959208678512787286\com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.xml
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
@@ -39,14 +39,13 @@ java.nio.file.NoSuchFileException: C:\Users\david\Desktop\david\logstash-plugin\
 	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
 	at hudson.model.ResourceController.execute(ResourceController.java:101)
 	at hudson.model.Executor.run(Executor.java:442)
-  10.417 [id=28]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-  10.472 [id=28]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-  10.527 [id=28]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17832210753881053213
-=== Starting dataIsSetWhenEnabledViaJobPropertyOnSlave(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.029 [id=89]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30131/jenkins/
-   0.130 [id=62]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.io.IOException: Node slave0 has been deleted during the channel setup
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
+   8.781 [id=28]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   8.857 [id=28]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   8.914 [id=28]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2959208678512787286
+   8.951 [id=62]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
+	at jenkins.model.Jenkins.get(Jenkins.java:814)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
 	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
 	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
@@ -56,63 +55,66 @@ java.io.IOException: Node slave0 has been deleted during the channel setup
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-   0.151 [id=102]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.151 [id=105]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.153 [id=102]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5311924503078198818\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.168 [id=102]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.336 [id=107]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.339 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.340 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   2.166 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   2.181 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   2.181 [id=101]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   2.183 [id=102]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   2.218 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   3.279 [id=83]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.EnvInjectComputerListener$2 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
-   3.581 [id=62]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
-   3.645 [id=62]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.service.EnvironmentVariablesNodeLoader$1 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
-   3.658 [id=62]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.service.EnvInjectActionSetter$1 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
-   4.448 [id=89]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   4.467 [id=89]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   4.525 [id=89]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5311924503078198818
+=== Starting dataIsSetWhenEnabledViaJobPropertyOnSlave(jenkins.plugins.logstash.LogstashIntegrationTest)
+   0.020 [id=90]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2747/jenkins/
+   0.110 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.111 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.113 [id=103]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10366281169265604215\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.128 [id=106]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.261 [id=103]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.264 [id=109]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.265 [id=104]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.146 [id=105]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.158 [id=105]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.158 [id=106]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.159 [id=106]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.190 [id=104]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.853 [id=81]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.EnvInjectComputerListener$2 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+   2.022 [id=62]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
+   2.055 [id=62]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.service.EnvironmentVariablesNodeLoader$1 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+   2.067 [id=62]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.envinject.service.EnvInjectActionSetter$1 in file:/C:/Users/david/.m2/repository/org/jenkins-ci/plugins/envinject/2.1.5/envinject-2.1.5.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+   2.605 [id=90]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.621 [id=90]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.668 [id=90]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10366281169265604215
 === Starting dataIsSetForNotifierOnSlave(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.020 [id=138]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30140/jenkins/
-   0.176 [id=151]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.177 [id=151]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.179 [id=155]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15120687610161604002\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.192 [id=153]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.387 [id=150]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.390 [id=151]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.391 [id=151]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.964 [id=154]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.976 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.976 [id=152]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.977 [id=150]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.011 [id=156]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   2.330 [id=79]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
-   2.900 [id=138]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.934 [id=138]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.999 [id=138]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15120687610161604002
+   0.019 [id=139]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2750/jenkins/
+   0.105 [id=152]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.105 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.107 [id=152]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12398416776253615512\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.119 [id=157]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.256 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.257 [id=157]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.259 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.456 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.468 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.468 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.469 [id=157]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.504 [id=152]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.335 [id=62]	INFO	o.j.h.test.SimpleCommandLauncher#launch: agent launched for slave0
+   1.856 [id=139]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.873 [id=139]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.920 [id=139]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12398416776253615512
 === Starting milliSecondTimestamps(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.019 [id=187]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30145/jenkins/
-   0.113 [id=200]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.114 [id=206]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.115 [id=200]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17626299724895475161\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.126 [id=204]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.294 [id=204]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.297 [id=203]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.298 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   2.154 [id=205]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   2.167 [id=205]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   2.168 [id=200]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   2.168 [id=204]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   2.200 [id=202]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   2.772 [id=187]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.797 [id=187]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.850 [id=187]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17626299724895475161
-   2.896 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.io.IOException: Node slave0 has been deleted during the channel setup
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
+   0.018 [id=188]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2753/jenkins/
+   0.101 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.101 [id=204]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.103 [id=201]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16092546825894686110\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.114 [id=200]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.240 [id=205]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.242 [id=207]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.244 [id=200]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.044 [id=203]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.057 [id=203]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.057 [id=206]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.058 [id=204]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.090 [id=202]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.656 [id=188]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.683 [id=188]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.733 [id=188]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16092546825894686110
+   1.757 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
+	at jenkins.model.Jenkins.get(Jenkins.java:814)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
 	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
 	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
@@ -123,24 +125,52 @@ java.io.IOException: Node slave0 has been deleted during the channel setup
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 === Starting secondTimestamps(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.022 [id=233]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30152/jenkins/
-   0.128 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.129 [id=245]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.130 [id=246]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h6631478279774671706\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.147 [id=245]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.314 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.316 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.318 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.140 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.149 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.149 [id=245]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.150 [id=245]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.183 [id=251]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   1.753 [id=233]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   1.780 [id=233]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   1.829 [id=233]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h6631478279774671706
+   0.017 [id=234]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2756/jenkins/
+   0.104 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.106 [id=253]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.107 [id=252]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h6053373800936989473\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.118 [id=252]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.245 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.247 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.248 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.768 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.777 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.778 [id=250]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.778 [id=253]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.812 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.384 [id=234]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.402 [id=234]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.448 [id=234]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h6053373800936989473
+   1.449 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.io.IOException: Node slave0 has been deleted during the channel setup
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
+	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
+	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 === Starting disabledWillNotWrite(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.008 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+   0.014 [id=280]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2759/jenkins/
+   0.094 [id=293]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.095 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.096 [id=297]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16162334401431685039\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.108 [id=294]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.233 [id=298]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.235 [id=297]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.236 [id=296]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.701 [id=294]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.712 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.712 [id=294]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.713 [id=294]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.747 [id=298]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   2.311 [id=280]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.334 [id=280]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.386 [id=280]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16162334401431685039
+   2.417 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
 java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
 	at jenkins.model.Jenkins.get(Jenkins.java:814)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
@@ -153,53 +183,24 @@ java.lang.IllegalStateException: Jenkins.instance is missing. Read the documenta
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-   0.022 [id=279]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30155/jenkins/
-   0.107 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.108 [id=295]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.109 [id=291]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2985229017490461134\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.122 [id=297]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.262 [id=294]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.264 [id=298]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.266 [id=295]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.994 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   2.013 [id=291]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   2.014 [id=291]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   2.014 [id=298]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   2.053 [id=297]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   2.626 [id=279]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.643 [id=279]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.690 [id=279]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h2985229017490461134
 === Starting passwordsAreMaskedWithMaskpasswordsBuildWrapper(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.014 [id=325]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30158/jenkins/
-   0.113 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.io.IOException: Node slave0 has been deleted during the channel setup
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
-	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
-	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
-	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
-	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:80)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-   0.140 [id=338]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.140 [id=339]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.142 [id=343]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h7755541993861512401\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.152 [id=343]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.309 [id=344]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.312 [id=340]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.315 [id=339]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.270 [id=342]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.278 [id=341]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.279 [id=338]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.280 [id=341]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.317 [id=337]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   1.891 [id=325]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   1.915 [id=325]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   1.968 [id=325]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h7755541993861512401
-=== Starting passwordsAreMaskedWithGlobalMaskPasswordsConfiguration(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.000 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+   0.015 [id=326]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2762/jenkins/
+   0.096 [id=339]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.097 [id=343]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.099 [id=340]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16347063190055175355\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.110 [id=340]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.235 [id=345]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.237 [id=345]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.239 [id=340]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.115 [id=341]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.125 [id=340]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.125 [id=341]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.126 [id=340]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.159 [id=339]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.736 [id=326]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.757 [id=326]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.811 [id=326]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16347063190055175355
+   1.828 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
 java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
 	at jenkins.model.Jenkins.get(Jenkins.java:814)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
@@ -212,27 +213,28 @@ java.lang.IllegalStateException: Jenkins.instance is missing. Read the documenta
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-   0.015 [id=371]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30161/jenkins/
-   0.096 [id=384]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+=== Starting passwordsAreMaskedWithGlobalMaskPasswordsConfiguration(jenkins.plugins.logstash.LogstashIntegrationTest)
+   0.015 [id=372]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2765/jenkins/
+   0.096 [id=385]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
    0.097 [id=388]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.098 [id=384]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10427634414071079565\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.110 [id=387]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.244 [id=387]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.246 [id=389]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.248 [id=383]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.685 [id=384]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.697 [id=384]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.697 [id=385]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.697 [id=390]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.732 [id=383]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   2.323 [id=371]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.339 [id=371]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.401 [id=371]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10427634414071079565
+   0.098 [id=387]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10366404515231049060\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.110 [id=391]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.248 [id=384]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.249 [id=385]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.250 [id=385]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   2.889 [id=386]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   2.899 [id=384]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   2.899 [id=386]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   2.900 [id=391]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   2.934 [id=390]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   3.499 [id=372]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   3.519 [id=372]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   3.575 [id=372]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h10366404515231049060
 === Starting enableGlobally(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.026 [id=417]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30164/jenkins/
-   0.041 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.io.IOException: Node slave0 has been deleted during the channel setup
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
+   0.021 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
+	at jenkins.model.Jenkins.get(Jenkins.java:814)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
 	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
 	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
@@ -242,53 +244,53 @@ java.io.IOException: Node slave0 has been deleted during the channel setup
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-   0.113 [id=430]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.114 [id=436]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.115 [id=430]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h13722359637816328070\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.128 [id=436]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.266 [id=432]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.268 [id=434]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.269 [id=435]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.744 [id=431]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.754 [id=431]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.754 [id=431]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.755 [id=433]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.789 [id=430]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   2.368 [id=417]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.390 [id=417]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.450 [id=417]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h13722359637816328070
-   2.457 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.io.IOException: Node slave0 has been deleted during the channel setup
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
-	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
-	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
-	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
-	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:80)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
+   0.023 [id=418]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2768/jenkins/
+   0.109 [id=431]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.110 [id=434]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.111 [id=431]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h3686133727090947947\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.123 [id=437]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.257 [id=433]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.259 [id=433]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.260 [id=430]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.464 [id=435]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.474 [id=435]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.474 [id=433]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.475 [id=433]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.511 [id=434]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   2.097 [id=418]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.115 [id=418]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.172 [id=418]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h3686133727090947947
 === Starting ansiColorAnnotationsAreNotIncluded(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.016 [id=463]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30167/jenkins/
-   0.100 [id=476]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.101 [id=479]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.103 [id=482]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h4707347988321332384\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.115 [id=475]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.265 [id=482]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.267 [id=475]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.268 [id=475]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.143 [id=478]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.156 [id=478]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.157 [id=478]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.158 [id=479]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.192 [id=480]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   1.759 [id=463]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   1.780 [id=463]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   1.835 [id=463]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h4707347988321332384
-=== Starting buildJobPropertyUpdatesResult(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.030 [id=509]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30170/jenkins/
-   0.056 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+   0.022 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
+	at jenkins.model.Jenkins.get(Jenkins.java:814)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
+	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
+	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+   0.026 [id=464]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2771/jenkins/
+   0.104 [id=477]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.105 [id=479]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.107 [id=481]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5092960399431915070\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.118 [id=483]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.239 [id=483]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.241 [id=476]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.242 [id=476]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.866 [id=483]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.875 [id=482]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.876 [id=482]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.876 [id=482]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.910 [id=476]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.485 [id=464]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.505 [id=464]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.559 [id=464]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5092960399431915070
+   1.570 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
 java.io.IOException: Node slave0 has been deleted during the channel setup
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
@@ -300,24 +302,27 @@ java.io.IOException: Node slave0 has been deleted during the channel setup
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-   0.126 [id=522]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.127 [id=528]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.128 [id=525]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h13994893303614795993\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.139 [id=522]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.309 [id=523]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.310 [id=526]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.311 [id=527]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.307 [id=526]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.315 [id=525]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.316 [id=525]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.317 [id=528]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.352 [id=527]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   1.947 [id=509]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   1.971 [id=509]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.040 [id=509]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h13994893303614795993
-   2.042 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.io.IOException: Node slave0 has been deleted during the channel setup
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
+=== Starting buildJobPropertyUpdatesResult(jenkins.plugins.logstash.LogstashIntegrationTest)
+   0.012 [id=510]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2774/jenkins/
+   0.093 [id=523]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.094 [id=522]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.095 [id=523]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9961870138551115370\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.105 [id=522]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.235 [id=524]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.237 [id=529]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.238 [id=527]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.507 [id=524]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.515 [id=526]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.515 [id=526]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.516 [id=528]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.550 [id=525]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   2.112 [id=510]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.145 [id=510]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.202 [id=510]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9961870138551115370
+   2.241 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
+	at jenkins.model.Jenkins.get(Jenkins.java:814)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
 	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
 	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
@@ -328,26 +333,25 @@ java.io.IOException: Node slave0 has been deleted during the channel setup
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 === Starting dataIsSetWhenEnabledViaJobPropertyOnMaster(jenkins.plugins.logstash.LogstashIntegrationTest)
-   0.019 [id=555]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30173/jenkins/
-   0.102 [id=568]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.103 [id=573]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.104 [id=569]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h14850465558882311362\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.115 [id=574]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-   0.270 [id=570]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.272 [id=573]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.273 [id=574]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   1.560 [id=570]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   1.569 [id=574]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   1.570 [id=572]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   1.571 [id=570]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   1.607 [id=567]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-   2.167 [id=555]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   2.190 [id=555]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   2.252 [id=555]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h14850465558882311362
-   2.320 [id=79]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
-java.lang.IllegalStateException: Jenkins.instance is missing. Read the documentation of Jenkins.getInstanceOrNull to see what you are doing wrong.
-	at jenkins.model.Jenkins.get(Jenkins.java:814)
-	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:762)
+   0.014 [id=556]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:2777/jenkins/
+   0.096 [id=569]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.096 [id=574]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.098 [id=570]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12526665922992107508\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.108 [id=569]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.232 [id=569]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.234 [id=569]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.236 [id=573]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.877 [id=568]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.885 [id=568]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.885 [id=574]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.887 [id=575]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.919 [id=573]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.486 [id=556]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.500 [id=556]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.564 [id=556]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12526665922992107508
+   1.632 [id=82]	WARNING	o.j.h.test.SimpleCommandLauncher#launch
+java.io.IOException: Node slave0 has been deleted during the channel setup
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:696)
 	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:438)
 	at org.jvnet.hudson.test.SimpleCommandLauncher.launch(SimpleCommandLauncher.java:82)
 	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)

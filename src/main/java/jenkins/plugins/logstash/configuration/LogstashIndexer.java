@@ -67,9 +67,8 @@ public abstract class LogstashIndexer<T extends AbstractLogstashIndexerDao>
 
 
   @SuppressWarnings("unchecked")
-  public static DescriptorExtensionList<LogstashIndexer<?>, Descriptor<LogstashIndexer<?>>> all()
-  {
-    return (DescriptorExtensionList<LogstashIndexer<?>, Descriptor<LogstashIndexer<?>>>) Jenkins.getInstance().getDescriptorList(LogstashIndexer.class);
+  public static DescriptorExtensionList<LogstashIndexer<?>, Descriptor<LogstashIndexer<?>>> all() {
+      return (DescriptorExtensionList<LogstashIndexer<?>, Descriptor<LogstashIndexer<?>>>) (DescriptorExtensionList<?, ?>) Jenkins.getInstance().getDescriptorList(LogstashIndexer.class);
   }
 
   public static abstract class LogstashIndexerDescriptor extends Descriptor<LogstashIndexer<?>>

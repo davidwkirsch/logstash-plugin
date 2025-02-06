@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: jenkins.plugins.logstash.persistence.ElasticSearchDaoTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.314 s -- in jenkins.plugins.logstash.persistence.ElasticSearchDaoTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.242 s -- in jenkins.plugins.logstash.persistence.ElasticSearchDaoTest
