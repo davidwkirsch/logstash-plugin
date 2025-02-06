@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+Specification-Title: Logstash
+Specification-Version: 2.5
+Implementation-Title: Logstash
+Implementation-Version: 2.5.0-SNAPSHOT
+Plugin-Class: jenkins.plugins.logstash.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: logstash
+Short-Name: logstash
+Long-Name: Logstash
+Url: https://github.com/jenkinsci/logstash-plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 2.5.0-SNAPSHOT (private-c2a1d2ab-david)
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: workflow-durable-task-step:1284.v4fcd365b_75b_e,wor
+ kflow-job:1326.ve643e00e9220,workflow-step-api:639.v6eca_cd8c04a_a_;res
+ olution:=optional,apache-httpcomponents-client-4-api:4.5.14-150.v7a_b_9
+ d17134a_5,credentials:1271.v54b_1c2c6388a_,junit:1217.v4297208a_a_b_ce,
+ pipeline-stage-step:305.ve96d0205c1c6
+Plugin-Developers: K Jonathan Harker:jesusaurus:jesusaurus@inbox.com,Rus
+ ty Gerard:rgerard:rusty.gerard@gmail.com,Jakub Bocheński:jbochenski:ku
+ ba.bochenski+logstash-plugin@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/logstash-plug
+ in.git
+Plugin-ScmTag: HEAD
+Plugin-ScmUrl: https://github.com/jenkinsci/logstash-plugin
+Plugin-GitHash: c2a1d2abd7e28a972858c06e9a806a37666d8b34
+Implementation-Build: c2a1d2abd7e28a972858c06e9a806a37666d8b34
+

@@ -1,0 +1,5 @@
+jenkins.plugins.logstash.configuration.ElasticSearch$ElasticSearchDescriptor
+jenkins.plugins.logstash.configuration.Logstash$Descriptor
+jenkins.plugins.logstash.configuration.RabbitMq$RabbitMqDescriptor
+jenkins.plugins.logstash.configuration.Redis$RedisDescriptor
+jenkins.plugins.logstash.configuration.Syslog$SyslogDescriptor
