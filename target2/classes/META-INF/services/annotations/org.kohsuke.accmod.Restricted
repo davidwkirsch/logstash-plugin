@@ -1,0 +1,2 @@
+jenkins.plugins.logstash.Messages
+jenkins.plugins.logstash.configuration.RabbitMq
