@@ -31,6 +31,7 @@ import hudson.model.Run;
 import jenkins.model.Jenkins;
 import jenkins.plugins.logstash.persistence.BuildData;
 import jenkins.plugins.logstash.persistence.LogstashIndexerDao;
+import jenkins.util.JenkinsJVM;
 import net.sf.json.JSONObject;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.exception.ExceptionUtils;
@@ -159,6 +160,10 @@ public class LogstashWriter implements Serializable {
 
   // Method to encapsulate calls for unit-testing
   LogstashIndexerDao getIndexerDao() {
+    if (!JenkinsJVM.isJenkinsJVM()){
+      return null;
+    }
+    
     return LogstashConfiguration.getInstance().getIndexerInstance();
   }
 
