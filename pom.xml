@@ -61,7 +61,7 @@
   </distributionManagement>
 
   <properties>
-    <revision>2.6.0</revision>
+    <revision>2.5.0</revision>
     <changelist>-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/logstash-plugin</gitHubRepo>
     <skipIntegrationTests>true</skipIntegrationTests>

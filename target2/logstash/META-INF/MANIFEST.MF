@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Created-By: Maven Archiver 3.6.0
 Build-Jdk-Spec: 21
 Specification-Title: Logstash
-Specification-Version: 2.6
+Specification-Version: 2.5
 Implementation-Title: Logstash
-Implementation-Version: 2.6.0-SNAPSHOT
+Implementation-Version: 2.5.0-SNAPSHOT
 Plugin-Class: jenkins.plugins.logstash.PluginImpl
 Group-Id: org.jenkins-ci.plugins
 Artifact-Id: logstash
@@ -12,7 +12,7 @@ Short-Name: logstash
 Long-Name: Logstash
 Url: https://github.com/jenkinsci/logstash-plugin
 Compatible-Since-Version: 2.0
-Plugin-Version: 2.6.0-SNAPSHOT (private-523e6324-david)
+Plugin-Version: 2.5.0-SNAPSHOT (private-39a96a5f-david)
 Hudson-Version: 2.387.3
 Jenkins-Version: 2.387.3
 Plugin-Dependencies: workflow-durable-task-step:1284.v4fcd365b_75b_e,wor
@@ -29,6 +29,6 @@ Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/logstash-plug
  in.git
 Plugin-ScmTag: HEAD
 Plugin-ScmUrl: https://github.com/jenkinsci/logstash-plugin
-Plugin-GitHash: 523e6324fe9ba77f934351c11acd0569ae179998
-Implementation-Build: 523e6324fe9ba77f934351c11acd0569ae179998
+Plugin-GitHash: 39a96a5f519cc083fa3ff28a124b9e4b687d91f0
+Implementation-Build: 39a96a5f519cc083fa3ff28a124b9e4b687d91f0
 

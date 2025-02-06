@@ -1,0 +1,349 @@
+=== Starting redisIsProperlyConfigured(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.105 [id=28]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test
+   0.370 [id=28]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30095/jenkins/
+   0.730 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   3.108 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\command-launcher.jpi
+   3.179 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\jdk-tool.jpi
+   3.265 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\trilead-api.jpi
+   3.409 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\mina-sshd-api-common.jpi
+   3.510 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\javax-mail-api.jpi
+   3.556 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\mina-sshd-api-core.jpi
+   3.608 [id=41]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins1533487854710982044\plugins\sshd.jpi
+   4.823 [id=41]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   4.828 [id=47]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5554813686444589039\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   5.036 [id=41]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   6.177 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   6.190 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   6.193 [id=41]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   7.810 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   7.880 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   7.880 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   7.890 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   8.052 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   8.172 [id=28]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   8.223 [id=28]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   8.274 [id=28]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h5554813686444589039
+=== Starting syslogIsProperlyConfigured(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.017 [id=77]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30101/jenkins/
+   0.096 [id=90]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.097 [id=96]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.099 [id=94]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15715790945376463411\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.114 [id=89]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.251 [id=93]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.253 [id=92]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.255 [id=92]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.764 [id=89]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.777 [id=89]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.777 [id=94]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.779 [id=89]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.807 [id=92]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.836 [id=77]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.848 [id=77]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.890 [id=77]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15715790945376463411
+=== Starting rabbitMqIsProperlyConfigured(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.015 [id=114]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30104/jenkins/
+   0.095 [id=127]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.096 [id=133]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.098 [id=131]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9415093677891829521\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.110 [id=132]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.235 [id=132]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.237 [id=129]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.238 [id=129]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.627 [id=128]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.642 [id=131]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.642 [id=128]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.643 [id=131]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.673 [id=129]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.703 [id=114]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   0.716 [id=114]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   0.755 [id=114]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h9415093677891829521
+=== Starting elasticSearchIsProperlyConfigured(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.014 [id=151]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30107/jenkins/
+   0.118 [id=164]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.119 [id=165]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.120 [id=170]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h6564609335943259705\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.132 [id=167]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.301 [id=170]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.305 [id=166]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.306 [id=166]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.465 [id=165]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.476 [id=165]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.476 [id=166]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.477 [id=165]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.508 [id=163]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.536 [id=151]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.549 [id=151]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.590 [id=151]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h6564609335943259705
+=== Starting jenkinsInitialConfigurationCanBeSaved(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.016 [id=188]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30110/jenkins/
+   0.099 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.100 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.101 [id=206]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17024327707351804442\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.113 [id=205]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.249 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.251 [id=206]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.252 [id=206]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.701 [id=204]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.718 [id=204]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.718 [id=201]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.720 [id=206]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.750 [id=205]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   4.757 [id=194]	WARNING	c.m.c.h.p.m.MaskPasswordsConfig#load: Unable to load Mask Passwords plugin configuration from com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.xml
+java.nio.file.NoSuchFileException: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17024327707351804442\com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at hudson.XmlFile.read(XmlFile.java:164)
+	at com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.load(MaskPasswordsConfig.java:480)
+	at com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsConfig.getInstance(MaskPasswordsConfig.java:221)
+	at com.michelin.cio.hudson.plugins.maskpasswords.MaskPasswordsBuildWrapper$DescriptorImpl.getConfig(MaskPasswordsBuildWrapper.java:420)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.commons.jexl.util.PropertyExecutor.execute(PropertyExecutor.java:125)
+	at org.apache.commons.jexl.util.introspection.UberspectImpl$VelGetterImpl.invoke(UberspectImpl.java:314)
+	at org.apache.commons.jexl.parser.ASTArrayAccess.evaluateExpr(ASTArrayAccess.java:185)
+	at org.apache.commons.jexl.parser.ASTIdentifier.execute(ASTIdentifier.java:75)
+	at org.apache.commons.jexl.parser.ASTReference.execute(ASTReference.java:83)
+	at org.apache.commons.jexl.parser.ASTReference.value(ASTReference.java:57)
+	at org.apache.commons.jexl.parser.ASTReferenceExpression.value(ASTReferenceExpression.java:51)
+	at org.apache.commons.jexl.ExpressionImpl.evaluate(ExpressionImpl.java:80)
+	at hudson.ExpressionFactory2$JexlExpression.evaluate(ExpressionFactory2.java:76)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:58)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.TagScript.getBodyText(TagScript.java:761)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$3.run(CoreTagLibrary.java:141)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:99)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:172)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.TagScript.getBodyText(TagScript.java:761)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$3.run(CoreTagLibrary.java:141)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:150)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:101)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:101)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:265)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:122)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:99)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:66)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:55)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:240)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:900)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:698)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:248)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:157)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:129)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.security.ResourceDomainFilter.doFilter(ResourceDomainFilter.java:81)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:160)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:160)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:94)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:111)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:172)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:53)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:549)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1570)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1384)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1306)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:505)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:762)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:497)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+   9.043 [id=188]	WARNING	o.h.DefaultCssErrorHandler#error: CSS error: 'http://localhost:30110/jenkins/static/5ebf1708/jsbundles/styles.css' [1:134087] Error in pseudo class or element. (Invalid token ".". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, "-", "+", <DIMENSION>.)
+   9.044 [id=188]	WARNING	o.h.DefaultCssErrorHandler#warning: CSS warning: 'http://localhost:30110/jenkins/static/5ebf1708/jsbundles/styles.css' [1:134087] Ignoring the whole rule.
+  15.634 [id=188]	WARNING	o.h.DefaultCssErrorHandler#error: CSS error: 'http://localhost:30110/jenkins/static/5ebf1708/jsbundles/styles.css' [1:134087] Error in pseudo class or element. (Invalid token ".". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, "-", "+", <DIMENSION>.)
+  15.635 [id=188]	WARNING	o.h.DefaultCssErrorHandler#warning: CSS warning: 'http://localhost:30110/jenkins/static/5ebf1708/jsbundles/styles.css' [1:134087] Ignoring the whole rule.
+  16.450 [id=188]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+  16.464 [id=188]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+  16.572 [id=188]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h17024327707351804442
+=== Starting disabled(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.017 [id=243]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30114/jenkins/
+   0.100 [id=256]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.101 [id=260]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.103 [id=260]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h11618311949534663462\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.125 [id=260]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.328 [id=262]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.332 [id=256]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.334 [id=258]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.927 [id=260]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.936 [id=261]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.936 [id=261]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.936 [id=261]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.971 [id=258]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.006 [id=243]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.020 [id=243]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.122 [id=243]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h11618311949534663462
+=== Starting unconfiguredWillReturnNull(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.016 [id=280]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30117/jenkins/
+   0.096 [id=293]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.097 [id=297]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.098 [id=292]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h13835907621213511694\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.111 [id=292]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.247 [id=295]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.251 [id=296]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.253 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.185 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.198 [id=292]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.198 [id=294]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.199 [id=299]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.236 [id=298]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.264 [id=280]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.278 [id=280]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.376 [id=280]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h13835907621213511694
+=== Starting programmaticConfigurationChangesActiveIndexer(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.014 [id=317]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30120/jenkins/
+   0.093 [id=330]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.094 [id=331]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.096 [id=329]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12762308062295962829\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.109 [id=336]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.236 [id=335]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.238 [id=329]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.240 [id=330]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.599 [id=330]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.610 [id=330]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.610 [id=331]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.611 [id=335]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.643 [id=332]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.670 [id=317]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.683 [id=317]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.779 [id=317]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h12762308062295962829
+=== Starting milliSecondsConfigured(jenkins.plugins.logstash.LogstashConfigurationTest)
+   0.014 [id=354]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:30123/jenkins/
+   0.100 [id=367]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.101 [id=368]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.103 [id=373]	INFO	j.b.api.BouncyCastlePlugin#start: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h11173387303298834487\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.115 [id=373]	INFO	j.plugins.logstash.PluginImpl#start: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
+   0.252 [id=373]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.255 [id=372]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.256 [id=372]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.705 [id=372]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.714 [id=370]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.714 [id=370]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.716 [id=373]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.749 [id=371]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.778 [id=354]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.791 [id=354]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.895 [id=354]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h11173387303298834487
