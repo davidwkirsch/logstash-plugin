@@ -1,1 +1,0 @@
-Running tests for org.jenkins-ci.plugins:logstash:2.5.0-SNAPSHOT
