@@ -6,7 +6,7 @@ Short-Name: logstash
 Long-Name: Logstash
 Url: https://github.com/jenkinsci/logstash-plugin
 Compatible-Since-Version: 2.0
-Plugin-Version: 2.6.0-SNAPSHOT (private-05c06ee0-david)
+Plugin-Version: 2.6.0-SNAPSHOT (private-6d9b991d-david)
 Hudson-Version: 2.387.3
 Jenkins-Version: 2.387.3
 Plugin-Dependencies: workflow-durable-task-step:1284.v4fcd365b_75b_e,wor
@@ -23,8 +23,8 @@ Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/logstash-plug
  in.git
 Plugin-ScmTag: HEAD
 Plugin-ScmUrl: https://github.com/jenkinsci/logstash-plugin
-Plugin-GitHash: 05c06ee0d338e98f1c2bc8603daa93830349df49
-Implementation-Build: 05c06ee0d338e98f1c2bc8603daa93830349df49
+Plugin-GitHash: 6d9b991dfc7b9eb09748321e95fa2ff180a57834
+Implementation-Build: 6d9b991dfc7b9eb09748321e95fa2ff180a57834
 Libraries: C:\Users\david\Desktop\david\logstash-plugin\src\main\resourc
  es,C:\Users\david\Desktop\david\logstash-plugin\target\classes,C:\Users
  \david\.m2\repository\com\cloudbees\syslog-java-client\1.0.6\syslog-jav
