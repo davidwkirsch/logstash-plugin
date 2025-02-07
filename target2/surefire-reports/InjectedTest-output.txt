@@ -1,76 +1,76 @@
-Feb 06, 2025 6:32:47 PM org.jvnet.hudson.test.WarExploder explode
+Feb 07, 2025 8:16:03 AM org.jvnet.hudson.test.WarExploder explode
 INFO: Exploding C:\Users\david\.m2\repository\org\jenkins-ci\main\jenkins-war\2.387.3\jenkins-war-2.387.3.war into C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
 WARNING: Empty contextPath
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.server.Server doStart
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 21.0.3+7-LTS-152
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
 INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
 INFO: Session workerName=node0
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.server.handler.ContextHandler doStart
 INFO: Started o.e.j.w.WebAppContext@10f7918f{Jenkins v2.387.3,/,file:///C:/Users/david/Desktop/david/logstash-plugin/target/jenkins-for-test/,AVAILABLE}{C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test}
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@602ae7b6{HTTP/1.1, (http/1.1)}{localhost:2655}
-Feb 06, 2025 6:32:53 PM org.eclipse.jetty.server.Server doStart
-INFO: Started Server@3936df72{STARTING}[10.0.15,sto=0] @7119ms
-Feb 06, 2025 6:32:53 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@602ae7b6{HTTP/1.1, (http/1.1)}{localhost:16169}
+Feb 07, 2025 8:16:09 AM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@3936df72{STARTING}[10.0.15,sto=0] @7825ms
+Feb 07, 2025 8:16:10 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started initialization
-Feb 06, 2025 6:32:56 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\command-launcher.jpi
-Feb 06, 2025 6:32:56 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\jdk-tool.jpi
-Feb 06, 2025 6:32:56 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\trilead-api.jpi
-Feb 06, 2025 6:32:56 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\mina-sshd-api-common.jpi
-Feb 06, 2025 6:32:56 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\javax-mail-api.jpi
-Feb 06, 2025 6:32:57 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\mina-sshd-api-core.jpi
-Feb 06, 2025 6:32:57 PM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins15299013976273490856\plugins\sshd.jpi
-Feb 06, 2025 6:32:58 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:12 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\command-launcher.jpi
+Feb 07, 2025 8:16:12 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\jdk-tool.jpi
+Feb 07, 2025 8:16:12 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\trilead-api.jpi
+Feb 07, 2025 8:16:12 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\mina-sshd-api-common.jpi
+Feb 07, 2025 8:16:12 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\javax-mail-api.jpi
+Feb 07, 2025 8:16:12 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\mina-sshd-api-core.jpi
+Feb 07, 2025 8:16:13 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\david\AppData\Local\Temp\jenkins13791703771301360516\plugins\sshd.jpi
+Feb 07, 2025 8:16:14 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Listed all plugins
-Feb 06, 2025 6:32:58 PM jenkins.bouncycastle.api.BouncyCastlePlugin start
-INFO: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15816319541770782187\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-Feb 06, 2025 6:32:58 PM jenkins.plugins.logstash.PluginImpl start
+Feb 07, 2025 8:16:14 AM jenkins.bouncycastle.api.BouncyCastlePlugin start
+INFO: C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16390389274513820374\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+Feb 07, 2025 8:16:14 AM jenkins.plugins.logstash.PluginImpl start
 INFO: Logstash: a logstash agent to send jenkins logs to a logstash indexer.
-Feb 06, 2025 6:32:59 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:15 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Prepared all plugins
-Feb 06, 2025 6:32:59 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:15 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started all plugins
-Feb 06, 2025 6:32:59 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:15 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Augmented all extensions
-Feb 06, 2025 6:33:00 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:17 AM jenkins.InitReactorRunner$1 onAttained
 INFO: System config loaded
-Feb 06, 2025 6:33:00 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:17 AM jenkins.InitReactorRunner$1 onAttained
 INFO: System config adapted
-Feb 06, 2025 6:33:00 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:17 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Loaded all jobs
-Feb 06, 2025 6:33:00 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:17 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Configuration for all jobs updated
-Feb 06, 2025 6:33:00 PM jenkins.InitReactorRunner$1 onAttained
+Feb 07, 2025 8:16:17 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Completed initialization
-Feb 06, 2025 6:33:00 PM org.eclipse.jetty.server.Server doStart
+Feb 07, 2025 8:16:17 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 21.0.3+7-LTS-152
-Feb 06, 2025 6:33:00 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+Feb 07, 2025 8:16:17 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
 INFO: Session workerName=node0
-Feb 06, 2025 6:33:00 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+Feb 07, 2025 8:16:17 AM org.eclipse.jetty.server.handler.ContextHandler doStart
 INFO: Started o.e.j.s.ServletContextHandler@769bd849{/,null,AVAILABLE}
-Feb 06, 2025 6:33:00 PM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@20a967fe{HTTP/1.1, (http/1.1)}{0.0.0.0:2657}
-Feb 06, 2025 6:33:00 PM org.eclipse.jetty.server.Server doStart
-INFO: Started Server@682abca7{STARTING}[10.0.15,sto=0] @14417ms
-Feb 06, 2025 6:33:04 PM org.eclipse.jetty.server.Server doStop
+Feb 07, 2025 8:16:17 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@20a967fe{HTTP/1.1, (http/1.1)}{0.0.0.0:16171}
+Feb 07, 2025 8:16:17 AM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@682abca7{STARTING}[10.0.15,sto=0] @15331ms
+Feb 07, 2025 8:16:20 AM org.eclipse.jetty.server.Server doStop
 INFO: Stopped Server@3936df72{STOPPING}[10.0.15,sto=0]
-Feb 06, 2025 6:33:04 PM org.eclipse.jetty.server.AbstractConnector doStop
+Feb 07, 2025 8:16:20 AM org.eclipse.jetty.server.AbstractConnector doStop
 INFO: Stopped ServerConnector@602ae7b6{HTTP/1.1, (http/1.1)}{localhost:0}
-Feb 06, 2025 6:33:04 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+Feb 07, 2025 8:16:20 AM org.eclipse.jetty.server.handler.ContextHandler doStop
 INFO: Stopped o.e.j.w.WebAppContext@10f7918f{Jenkins v2.387.3,/,file:///C:/Users/david/Desktop/david/logstash-plugin/target/jenkins-for-test/,STOPPED}{C:\Users\david\Desktop\david\logstash-plugin\target\jenkins-for-test}
-Feb 06, 2025 6:33:04 PM hudson.lifecycle.Lifecycle onStatusUpdate
+Feb 07, 2025 8:16:20 AM hudson.lifecycle.Lifecycle onStatusUpdate
 INFO: Stopping Jenkins
-Feb 06, 2025 6:33:04 PM hudson.lifecycle.Lifecycle onStatusUpdate
+Feb 07, 2025 8:16:20 AM hudson.lifecycle.Lifecycle onStatusUpdate
 INFO: Jenkins stopped
-Feb 06, 2025 6:33:04 PM org.jvnet.hudson.test.TemporaryDirectoryAllocator dispose
-INFO: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h15816319541770782187
+Feb 07, 2025 8:16:20 AM org.jvnet.hudson.test.TemporaryDirectoryAllocator dispose
+INFO: deleting C:\Users\david\Desktop\david\logstash-plugin\target\tmp\j h16390389274513820374

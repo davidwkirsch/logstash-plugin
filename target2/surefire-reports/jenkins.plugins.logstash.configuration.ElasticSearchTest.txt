@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: jenkins.plugins.logstash.configuration.ElasticSearchTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.96 s -- in jenkins.plugins.logstash.configuration.ElasticSearchTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.18 s -- in jenkins.plugins.logstash.configuration.ElasticSearchTest

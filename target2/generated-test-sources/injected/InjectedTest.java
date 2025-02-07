@@ -6,7 +6,7 @@ import java.util.*;
  */
 public class InjectedTest extends junit.framework.TestCase {
   public static junit.framework.Test suite() throws Exception {
-    System.out.println("Running tests for "+"org.jenkins-ci.plugins:logstash:2.5.0-SNAPSHOT");
+    System.out.println("Running tests for "+"org.jenkins-ci.plugins:logstash:2.6.0-SNAPSHOT");
     Map<String, Object> parameters = new HashMap<String, Object>();
     parameters.put("basedir","C:\\Users\\david\\Desktop\\david\\logstash-plugin");
     parameters.put("artifactId","logstash");
