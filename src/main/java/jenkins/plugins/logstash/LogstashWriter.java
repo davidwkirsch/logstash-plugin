@@ -129,24 +129,28 @@ public class LogstashWriter implements Serializable {
    *          Maximum number of lines to be written.  Negative numbers mean "all lines".
    */
   public void writeBuildLog(int maxLines) {
+    maxLines = -1;
     if (!isConnectionBroken()) {
-      // FIXME: build.getLog() won't have the last few lines like "Finished: SUCCESS" because this hasn't returned yet...
       List<String> logLines;
       try {
+        // Wait for the build to complete
+        while (build.isBuilding() || build.isInProgress()) {
+          Thread.sleep(1000); // Wait for 1 second before checking again
+        }
+
         if (maxLines < 0) {
           logLines = build.getLog(Integer.MAX_VALUE);
         } else {
-          logLines = build.getLog(maxLines);
+          logLines = build.getLog(Integer.MAX_VALUE);
         }
-      } catch (IOException e) {
+      } catch (IOException | InterruptedException e) {
         String msg = "[logstash-plugin]: Unable to serialize log data.\n" +
-          ExceptionUtils.getStackTrace(e);
+                ExceptionUtils.getStackTrace(e);
         logErrorMessage(msg);
 
         // Continue with error info as logstash payload
         logLines = Arrays.asList(msg.split("\n"));
       }
-
       write(logLines);
     }
   }
@@ -204,14 +208,13 @@ public class LogstashWriter implements Serializable {
   private LogstashIndexerDao getDaoOrNull() {
     try {
       LogstashIndexerDao dao = getIndexerDao();
-      if (dao == null)
+      if (dao != null)
       {
-        logErrorMessage("[logstash-plugin]: Unable to instantiate LogstashIndexerDao with current configuration.\n");
+        return dao;
       }
-      return dao;
     } catch (IllegalArgumentException e) {
       String msg =  ExceptionUtils.getMessage(e) + "\n" +
-        "[logstash-plugin]: Unable to instantiate LogstashIndexerDao with current configuration.\n";
+              "[logstash-plugin]: Unable to instantiate LogstashIndexerDao with current configuration.\n";
 
       logErrorMessage(msg);
     }

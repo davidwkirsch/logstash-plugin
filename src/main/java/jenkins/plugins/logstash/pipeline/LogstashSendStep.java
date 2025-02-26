@@ -52,36 +52,42 @@ public class LogstashSendStep extends Step
   }
 
   @SuppressFBWarnings(value="SE_TRANSIENT_FIELD_NOT_RESTORED", justification="Only used when starting.")
-  private static class Execution extends SynchronousNonBlockingStepExecution<Void>
-  {
+  private static class Execution extends SynchronousNonBlockingStepExecution<Void> {
 
     private static final long serialVersionUID = 1L;
 
     private transient final int maxLines;
     private transient final boolean failBuild;
 
-    Execution(StepContext context, int maxLines, boolean failBuild)
-    {
+    Execution(StepContext context, int maxLines, boolean failBuild) {
       super(context);
       this.maxLines = maxLines;
       this.failBuild = failBuild;
     }
 
     @Override
-    protected Void run() throws Exception
-    {
+    protected Void run() throws Exception {
       Run<?, ?> run = getContext().get(Run.class);
       TaskListener listener = getContext().get(TaskListener.class);
       PrintStream errorStream = listener.getLogger();
       LogstashWriter logstash = new LogstashWriter(run, errorStream, listener, run.getCharset());
+
+      // Wait for the build to complete
+      while (run.isBuilding() || run.isInProgress()) {
+        try {
+          Thread.sleep(1000); // Wait for 1 second before checking again
+        } catch (InterruptedException e) {
+          Thread.currentThread().interrupt();
+          throw e;
+        }
+      }
+
       logstash.writeBuildLog(maxLines);
-      if (failBuild && logstash.isConnectionBroken())
-      {
+      if (failBuild && logstash.isConnectionBroken()) {
         throw new Exception("Failed to send data to Indexer");
       }
       return null;
     }
-
   }
 
   @Extension

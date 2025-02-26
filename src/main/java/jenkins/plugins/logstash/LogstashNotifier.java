@@ -64,7 +64,7 @@ public class LogstashNotifier extends Notifier implements SimpleBuildStep {
 
   @DataBoundConstructor
   public LogstashNotifier(int maxLines, boolean failBuild) {
-    this.maxLines = maxLines;
+    this.maxLines = 100000;
     this.failBuild = failBuild;
   }
 
@@ -84,8 +84,7 @@ public class LogstashNotifier extends Notifier implements SimpleBuildStep {
   }
 
   @Override
-  public void perform(Run<?, ?> run, FilePath workspace, Launcher launcher,
-    TaskListener listener) throws InterruptedException, IOException {
+  public void perform(Run<?, ?> run, FilePath workspace, Launcher launcher, TaskListener listener) throws InterruptedException, IOException {
     if (!perform(run, listener)) {
       run.setResult(Result.FAILURE);
     }
@@ -93,14 +92,24 @@ public class LogstashNotifier extends Notifier implements SimpleBuildStep {
 
   private boolean perform(Run<?, ?> run, TaskListener listener) {
     LogstashConfiguration configuration = LogstashConfiguration.getInstance();
-    if (!configuration.isEnabled())
-    {
+    if (!configuration.isEnabled()) {
       LOGGER.log(Level.FINE, "Logstash is disabled. Logs will not be forwarded.");
       return true;
     }
 
     PrintStream errorPrintStream = listener.getLogger();
     LogstashWriter logstash = getLogStashWriter(run, errorPrintStream, listener);
+
+    // Wait for the build to complete
+    while (run.isBuilding() || run.isInProgress()) {
+      try {
+        Thread.sleep(1000); // Wait for 1 second before checking again
+      } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+        return false;
+      }
+    }
+
     logstash.writeBuildLog(maxLines);
     return !(failBuild && logstash.isConnectionBroken());
   }

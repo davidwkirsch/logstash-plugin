@@ -38,8 +38,6 @@ import jenkins.plugins.logstash.LogstashConfiguration;
  * This step will send the logs line by line to an indexer.
  */
 public class LogstashStep extends Step {
-
-  private static final Logger LOGGER = Logger.getLogger(LogstashStep.class.getName());
   /** Constructor. */
   @DataBoundConstructor
   public LogstashStep() {}

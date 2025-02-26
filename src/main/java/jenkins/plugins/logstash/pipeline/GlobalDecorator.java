@@ -30,7 +30,6 @@ public class GlobalDecorator extends TaskListenerDecorator {
     this(run, null, null);
   }
   public GlobalDecorator(WorkflowRun run, String stageName, String agentName) {
-    LOGGER.log(Level.INFO, "Creating decorator for {0}", run.toString());
     this.run = run;
     this.stageName = stageName;
     this.agentName = agentName;
