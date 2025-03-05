@@ -1,0 +1,16 @@
+
+.idea/*
+!.idea/runConfigurations/
+
+.gradle
+
+build/*
+!build/libs
+
+out
+
+work
+
+*.class
+
+*.log
