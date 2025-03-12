@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci</groupId>
+  <artifactId>annotation-indexer</artifactId>
+  <version>1.17</version>
+  <name>Annotation Indexer</name>
+  <description>Creates index of annotations.</description>
+  <url>https://github.com/jenkinsci/lib-annotation-indexer</url>
+  <inceptionYear>2004</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <mailingLists>
+    <mailingList>
+      <name>Jenkins advisories list</name>
+      <subscribe>jenkinsci-advisories+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>jenkinsci-advisories+unsubscribe@googlegroups.com</unsubscribe>
+      <archive>https://groups.google.com/g/jenkinsci-advisories</archive>
+    </mailingList>
+    <mailingList>
+      <name>Jenkins developer discussion list</name>
+      <subscribe>jenkinsci-dev+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>jenkinsci-dev+unsubscribe@googlegroups.com</unsubscribe>
+      <post>jenkinsci-dev@googlegroups.com</post>
+      <archive>https://groups.google.com/g/jenkinsci-dev</archive>
+    </mailingList>
+    <mailingList>
+      <name>Jenkins user discussion list</name>
+      <subscribe>jenkinsci-users+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>jenkinsci-users+unsubscribe@googlegroups.com</unsubscribe>
+      <post>jenkinsci-users@googlegroups.com</post>
+      <archive>https://groups.google.com/g/jenkinsci-users</archive>
+    </mailingList>
+    <mailingList>
+      <name>Jenkins Japanese user discussion list</name>
+      <subscribe>jenkinsci-ja+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>jenkinsci-ja+unsubscribe@googlegroups.com</unsubscribe>
+      <post>jenkinsci-ja@googlegroups.com</post>
+      <archive>https://groups.google.com/g/jenkinsci-ja</archive>
+    </mailingList>
+  </mailingLists>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/lib-annotation-indexer.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/lib-annotation-indexer.git</developerConnection>
+    <tag>annotation-indexer-1.17</tag>
+    <url>https://github.com/jenkinsci/lib-annotation-indexer</url>
+  </scm>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>https://issues.jenkins.io</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://ci.jenkins.io</url>
+  </ciManagement>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.kohsuke.metainf-services</groupId>
+      <artifactId>metainf-services</artifactId>
+      <version>1.9</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </repository>
+    <repository>
+      <id>elementary-releases</id>
+      <url>https://repo.karuslabs.com/repository/elementary-releases/</url>
+    </repository>
+  </repositories>
+</project>
